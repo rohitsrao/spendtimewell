@@ -34,8 +34,8 @@ dependencies:
 
 devDependencies:
   '@tailwindcss/postcss':
-    specifier: ^4
-    version: 4.0.0
+    specifier: ^4.2.2
+    version: 4.2.2
   '@types/node':
     specifier: ^20
     version: 20.0.0
@@ -52,8 +52,8 @@ devDependencies:
     specifier: 16.2.0
     version: 16.2.0(@typescript-eslint/parser@8.57.1)(eslint@9.0.0)(typescript@5.0.2)
   tailwindcss:
-    specifier: ^4
-    version: 4.0.0
+    specifier: ^4.2.2
+    version: 4.2.2
   typescript:
     specifier: ^5
     version: 5.0.2
@@ -1193,15 +1193,14 @@ packages:
       '@tailwindcss/oxide-win32-x64-msvc': 4.2.2
     dev: true
 
-  /@tailwindcss/postcss@4.0.0:
-    resolution: {integrity: sha512-lI2bPk4TvwavHdehjr5WiC6HnZ59hacM6ySEo4RM/H7tsjWd8JpqiNW9ThH7rO/yKtrn4mGBoXshpvn8clXjPg==}
+  /@tailwindcss/postcss@4.2.2:
+    resolution: {integrity: sha512-n4goKQbW8RVXIbNKRB/45LzyUqN451deQK0nzIeauVEqjlI49slUlgKYJM2QyUzap/PcpnS7kzSUmPb1sCRvYQ==}
     dependencies:
       '@alloc/quick-lru': 5.2.0
       '@tailwindcss/node': 4.2.2
       '@tailwindcss/oxide': 4.2.2
-      lightningcss: 1.32.0
       postcss: 8.5.8
-      tailwindcss: 4.0.0
+      tailwindcss: 4.2.2
     dev: true
 
   /@ts-morph/common@0.27.0:
@@ -4883,10 +4882,6 @@ packages:
   /tailwind-merge@3.5.0:
     resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
     dev: false
-
-  /tailwindcss@4.0.0:
-    resolution: {integrity: sha512-ULRPI3A+e39T7pSaf1xoi58AqqJxVCLg8F/uM5A3FadUbnyDTgltVnXJvdkTjwCOGA6NazqHVcwPJC5h2vRYVQ==}
-    dev: true
 
   /tailwindcss@4.2.2:
     resolution: {integrity: sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==}
